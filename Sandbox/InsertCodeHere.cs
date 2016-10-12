@@ -13,7 +13,7 @@ namespace Sandbox
             int c1 = 1;
             while (c1 < 20)
             {
-                // Console.WriteLine(c1); // Uncomment to see result
+                Console.WriteLine(c1); // Uncomment to see result: 3 5 7 9 11 13 15 17 19
                 c1 = c1 + 2;
             }
             Console.WriteLine("End of Case 1");
@@ -24,7 +24,7 @@ namespace Sandbox
             int c2 = 1;
             while (c2 < 20)
             {
-                // Console.WriteLine(c2); // Uncomment to see result
+                Console.WriteLine(c2); // Uncomment to see result: 1 2 4 8 16
                 c2 = c2 * 2;
             }
             Console.WriteLine("End of Case 2");
@@ -35,7 +35,7 @@ namespace Sandbox
             int c3 = 15;
             while ((c3 < 20) && (c3 > 10))
             {
-                // Console.WriteLine(c3);  // Uncomment to see result
+                Console.WriteLine(c3);  // Uncomment to see result: 15 16 17 18 19
                 c3++;
             }
             Console.WriteLine("End of Case 3");
@@ -46,7 +46,7 @@ namespace Sandbox
             int c4 = 10;
             while (c4 >= 0)
             {
-                // Console.WriteLine(c4);  // Uncomment to see result
+                Console.WriteLine(c4);  // Uncomment to see result: 10 9 8 7 6 5 4 3 2 1 0
                 c4--;
             }
             Console.WriteLine("End of Case 4");
