@@ -68,7 +68,14 @@ namespace Sandbox
 
             // Case 6
             // Print out the numbers 0,1,3,7,15,31
-
+            Console.WriteLine("Start of Case 6");
+            int c6 = 0;
+            while (c6 >= 0 && c6 <= 31)
+            {
+                Console.WriteLine(c6);
+                c6 = 1 + c6 * 2;
+            }
+            Console.WriteLine("End of Case 6");
 
             // Case 7
             // Print out the numbers 100,50,25,12,6,3,1
