@@ -56,6 +56,14 @@ namespace Sandbox
 
             // Case 5
             // Print out the numbers 3,5,7,9
+            Console.WriteLine("Start of Case 5");
+            int c5 = 3;
+            while ((c5 < 10) && (c5 > 2))
+            {
+                Console.WriteLine(c5);
+                c5 = c5 + 2;
+            }
+            Console.WriteLine("End of Case 5");
 
 
             // Case 6
