@@ -79,6 +79,16 @@ namespace Sandbox
 
             // Case 7
             // Print out the numbers 100,50,25,12,6,3,1
+            Console.WriteLine("Start of Case 7");
+            int c7 = 100;
+            while ((c7 <=100) && (c7 >= 1))
+            {
+                Console.WriteLine(c7);
+                c7 = c7 / 2;
+            }
+
+
+            Console.WriteLine("End of Case 7");
 
 
             // Case 8 (DIFFICULT)
